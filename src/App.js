@@ -12,6 +12,7 @@ function App() {
     <>
       <main>
         <p>Hello world!</p>
+        <p>Hello world2!</p>
       </main>
     </>
   );
