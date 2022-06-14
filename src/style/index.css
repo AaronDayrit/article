@@ -1,0 +1,173 @@
+@import "base.css";
+
+/*------------------------------------------------
+    Intro article section
+---------------------------------------------------*/
+
+.article-wrapper .container{
+    width: 50%;
+}
+
+.article-wrapper .container .intro{
+    width: 100%;
+    padding: 45px 0 30px 0;
+}
+
+.article-wrapper .container .intro h2{
+    font-size: 37px;
+    font-family: 'lora, serif';
+
+}
+
+.article-wrapper .container .intro h3{
+    font-size: 24px;
+    font-family: 'lora, serif';
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    margin-top: 15px;
+}
+
+/*--------------------------
+    icon-container
+---------------------------*/
+
+.article-wrapper .container .intro .icon-container{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    border-top: solid 1px rgb(155, 155, 155);
+    padding: 25px 0;
+}
+
+.article-wrapper .container .intro .icon-container i{
+  font-size: 18px;
+  margin-left: 15px;
+  width: 40px;
+  display: grid;
+  place-content: center;
+  height: 40px;
+  border: solid 1.3px rgb(131, 130, 130);
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color:  rgb(77, 77, 77);
+}
+
+.article-wrapper .container .intro .icon-container p{
+    display: flex;
+    cursor: pointer;
+    border: solid 1.3px rgb(131, 130, 130);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  rgb(77, 77, 77);
+    transition: 0.2s ease-in-out;
+}
+
+.article-wrapper .container .intro .icon-container p i{
+    height: 0;
+    width: 25px;
+    display: block;
+    border: none;
+    margin: 0;
+}
+
+.article-wrapper .container .intro .icon-container i:hover, 
+.article-wrapper .container .intro .icon-container p:hover{
+    opacity: 0.75;
+}
+
+/*-------------------------------------
+    Images
+---------------------------------------*/
+
+.article-wrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.caption{
+    width: 100%;
+    font-family: 'lora, serif';
+    margin-top: 25px;
+    line-height: 22px;
+    font-size: 17px;
+    color: rgb(122, 122, 122);
+}
+
+/*-------------------------------------
+    Author section
+---------------------------------------*/
+
+.profile-container{
+    width: 100%;
+}
+
+.profile-container .name{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.profile-container .name:hover{
+    opacity: 0.7;
+}
+
+.profile-container .name span{
+    text-decoration: underline;
+}
+
+.profile-container .date{
+    font-weight: 300;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/*-------------------------------------
+    Main section
+---------------------------------------*/
+
+.par-container{
+    display: grid;
+    grid-gap: 20px;
+    padding: 35px 0;
+}
+
+.par-container p{
+    line-height: 25px;
+    font-size: 21px;
+    font-family: 'lora, serif';
+    font-weight:500;
+}
+
+/*------------------------------------------
+    Media Queries
+------------------------------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 580px){
+    .article-wrapper .container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 580px) and (max-width: 860px){
+    .article-wrapper .container{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1024px){
+    .article-wrapper .container{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .article-wrapper .container{
+        width: 50%;
+    }
+}

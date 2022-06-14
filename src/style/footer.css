@@ -1,0 +1,133 @@
+@import "base.css";
+
+/*-----------------------------------------------
+    Grid styling
+-------------------------------------------------*/
+
+footer{
+    background-color: rgb(245, 245, 245);
+    padding-top: 18px;
+}
+
+footer .grid-container{
+    padding: 0px 17.5px 35px;
+    width: 100%;    
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+}
+
+footer .grid-container .grid-item{
+    display: flex;
+    padding: 17.5px;
+}
+
+footer .grid-container .grid-item ul{
+    width: 50%;
+    list-style: none;
+}
+
+/*-----------------------------------------------
+    Grid items
+-------------------------------------------------*/
+
+footer .grid-container .grid-item h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(65, 65, 65);
+}
+
+footer .grid-container .grid-item ul li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: rgb(65, 65, 65);
+}
+
+footer .grid-container .grid-item ul li:hover{
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------
+    Footer bottom
+-------------------------------------------------*/
+
+footer .bottom{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-color: rgb(245, 245, 245);
+    color: rgb(65, 65, 65);
+    border-top: solid 1.3px rgb(212, 212, 212);
+}
+
+footer .bottom p span{
+    font-weight: 600;
+}
+
+/*-----------------------------------------------
+    Footer Top
+-------------------------------------------------*/
+
+footer .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+}
+
+footer .top img{
+    height: 32px;
+}
+
+footer .top p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(48, 135, 250);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer .top p:hover{
+    color:rgb(32, 94, 175);
+}
+
+
+/*------------------------------------------
+    Media Queries
+------------------------------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 580px){
+    footer .grid-container{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+
+@media screen and (min-width: 580px) and (max-width: 860px){
+    footer .grid-container{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1024px){
+    footer .grid-container{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    footer .grid-container{
+        grid-template-columns: repeat(3, calc(100%/3));
+    }
+}
