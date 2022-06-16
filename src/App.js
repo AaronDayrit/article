@@ -17,12 +17,12 @@ function App() {
       <Header />
       <main>
       <Routes>
-        <Route exact path="/History" element={<Article />} />
+        <Route exact path="/History/index.html" element={<Article />} />
       </Routes>
       </main>
       <Footer />
     </>
-    
+
   );
 }
 
