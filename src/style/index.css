@@ -91,6 +91,7 @@
     font-family: 'lora, serif';
     margin-top: 25px;
     line-height: 22px;
+    text-align: center;
     font-size: 17px;
     color: rgb(122, 122, 122);
 }
@@ -137,10 +138,37 @@
 }
 
 .par-container p{
-    line-height: 25px;
+    text-indent: 40px;
+    line-height: 30px;
     font-size: 21px;
     font-family: 'lora, serif';
     font-weight:500;
+}
+
+.par-container p span{
+    font-size: 21px;
+    font-style: italic;
+    font-family: 'lora, serif';
+}
+
+/*-------------------------------------
+    Work cited
+---------------------------------------*/
+
+/* <div className="work-cited">
+<div className="citation">
+    <p className="title">Effects of the Great Depression - Thompson School District R2-J</p>
+    <p className="link">https://www.thompsonschools.org/cms/lib/CO01900772/Centricity/Domain/3627/Effects%20of%20the%20Great%20Depression.pdf. </p>
+</div>
+</div> */
+
+.citation{
+    width: 100%;
+    padding: 20px;
+}
+
+.citation div{
+    width: 00px;
 }
 
 /*------------------------------------------
