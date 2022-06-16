@@ -10,7 +10,7 @@ function Article() {
                         With what we've experienced from Covid-19, have we witnessed another Great Depression?
                     </h2>
                     <h3>
-                        The past three years have been plagued and impacted by Covid-19. Does it draw parallel with our past?
+                    The past three years have been plagued and impacted by Covid-19. Does it draw a parallel with our past?
 
                     </h3>
 

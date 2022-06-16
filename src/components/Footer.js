@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <footer>
                 <div className="top">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_New_York_Times_logo.png/800px-The_New_York_Times_logo.png"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_New_York_Times_logo.png/800px-The_New_York_Times_logo.png" />
                     <p className="link">Go to home page</p>
                 </div>
                 <div className="grid-container">
@@ -89,10 +89,25 @@ class Footer extends Component {
                             <li>Manage my Account</li>
                             <li>NYTLicensing</li>
                         </ul>
+                        <ul className="">
+                            <h2>More</h2>
+                            <ul>
+                                <li>Email Newsletters</li>
+                                <li>Corporate Substructions</li>
+                                <li>Education Rate</li>
+                                <li>Mobile Applications</li>
+                                <li>Replica Edition</li>
+                                <li>International</li>
+                                <li>Canada</li>
+                                <li>Español</li>
+                                <li>中文网</li>
+                            </ul>
+                        </ul>
                     </div>
+
                 </div>
                 <div className="bottom">
-                <p><span>Copyright ©2022 FRC.</span> Website by Aaron Dayrit</p>
+                    <p><span>Copyright ©2022 FRC.</span> Website by Aaron Dayrit</p>
                 </div>
             </footer>
         );

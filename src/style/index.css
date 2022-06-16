@@ -134,7 +134,7 @@
 .par-container{
     display: grid;
     grid-gap: 20px;
-    padding: 35px 0;
+    padding: 35px 0 75px;
 }
 
 .par-container p{
@@ -149,26 +149,6 @@
     font-size: 21px;
     font-style: italic;
     font-family: 'lora, serif';
-}
-
-/*-------------------------------------
-    Work cited
----------------------------------------*/
-
-/* <div className="work-cited">
-<div className="citation">
-    <p className="title">Effects of the Great Depression - Thompson School District R2-J</p>
-    <p className="link">https://www.thompsonschools.org/cms/lib/CO01900772/Centricity/Domain/3627/Effects%20of%20the%20Great%20Depression.pdf. </p>
-</div>
-</div> */
-
-.citation{
-    width: 100%;
-    padding: 20px;
-}
-
-.citation div{
-    width: 00px;
 }
 
 /*------------------------------------------
