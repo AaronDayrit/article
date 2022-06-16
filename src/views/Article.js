@@ -88,8 +88,6 @@ function Article() {
         </div>
 
 
-
-
     )
 }
 
