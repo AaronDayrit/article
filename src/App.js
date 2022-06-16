@@ -17,7 +17,7 @@ function App() {
       <Header />
       <main>
       <Routes>
-        <Route exact path="/History" element={<Article />} />
+        <Route exact path="/article" element={<Article />} />
       </Routes>
       </main>
       <Footer />
