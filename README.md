@@ -6,5 +6,5 @@
 </p>	
 
 <p>
-    The project involved designing and implementing different React components to structure the website's front-end, such as navigation bars, search bars, and article sections.
+    The project included designing and implementing different React components to structure the website's front-end, such as navigation bars, search bars, and article sections.
 </p>
